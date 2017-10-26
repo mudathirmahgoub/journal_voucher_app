@@ -45,6 +45,7 @@ GEM
     crass (1.0.2)
     erubi (1.7.0)
     ffi (1.9.18)
+    ffi (1.9.18-x64-mingw32)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.9.0)
@@ -67,7 +68,10 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.1-x64-mingw32)
+      mini_portile2 (~> 2.3.0)
     pg (0.21.0)
+    pg (0.21.0-x64-mingw32)
     puma (3.10.0)
     rack (2.0.3)
     rack-test (0.7.0)
@@ -116,12 +120,16 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2017.3)
+      tzinfo (>= 1.0.0)
+    wdm (0.1.1)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   byebug
@@ -132,6 +140,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.15.4
