@@ -31,6 +31,11 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use RSpec as required
   gem 'rspec-rails', '>= 3.7.1'
+
+  # Use cucumber-rails and database_cleaner for testing
+  gem 'cucumber-rails', '>=1.5.0', :require => false
+  # highly recommended by cucumber
+  gem 'database_cleaner', '>=1.6.2'
 end
 
 group :development do
