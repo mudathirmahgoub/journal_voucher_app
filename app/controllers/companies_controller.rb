@@ -10,7 +10,11 @@ class CompaniesController < ApplicationController
 
   def create
     @company = Company.create(company_params)
-    render json: @company
+    if @company.valid?
+      render json: @company
+    else
+      render json: {message: @company.errors.full_messages}, :status => 400
+    end
   end
 
   def show
