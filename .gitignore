@@ -17,3 +17,6 @@
 
 #Ignore RubyMine config
 .idea
+
+#simplecov
+coverage
