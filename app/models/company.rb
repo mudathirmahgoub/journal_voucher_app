@@ -14,16 +14,16 @@ class Company < ActiveRecord::Base
       file = File.read(fileName)
       roots = JSON.parse(file)
       roots.each do |root|
-        create_nodes_recursively company,root
+        create_nodes_recursively company,root, nil
       end
     end
     company
   end
 
-  def self.create_nodes_recursively company, json_node
-    node = company.nodes.create!(name: json_node['name'], is_editable: false)
+  def self.create_nodes_recursively company, json_node, parent_id
+    node = company.nodes.create!(name: json_node['name'], is_editable: false, node_id: parent_id)
     json_node['children'].each do |n|
-      create_nodes_recursively company, n
+      create_nodes_recursively company, n, node.id
     end
   end
 end
