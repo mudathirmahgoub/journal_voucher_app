@@ -5,8 +5,25 @@ class NodesController < ApplicationController
   end
 
   def index
-    @nodes = Node.where(company_id: params[:company_id])
-    render json: @nodes
+    nodes = Node.where(company_id: params[:company_id])
+    #convert nodes to array of hashes
+    nodes = nodes.collect {|node| node.as_json}
+    #construct the tree
+    roots = nodes.select { |hash| hash['node_id'] == nil }
+    roots.each do |root|
+      build_tree nodes, root
+    end
+    render json: roots
+  end
+
+  def build_tree (nodes, node)
+    children = nodes.select { |hash| hash['node_id'] != nil && hash['node_id'] == node['id'] }
+    node[:children] = children
+    node[:is_account_node] = false
+    # recursively build the tree
+    children.each do |n|
+      build_tree nodes, n
+    end
   end
 
   def create
