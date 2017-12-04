@@ -9,7 +9,7 @@ class CompaniesController < ApplicationController
   end
 
   def create
-    @company = Company.create(company_params)
+    @company = Company.create_default_nodes(company_params)
     if @company.valid?
       render json: @company
     else

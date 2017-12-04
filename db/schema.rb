@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171029054842) do
+ActiveRecord::Schema.define(version: 20171203235824) do
 
   create_table "companies", force: :cascade do |t|
     t.string "name"
@@ -21,6 +21,17 @@ ActiveRecord::Schema.define(version: 20171029054842) do
     t.string "default_currency"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "nodes", force: :cascade do |t|
+    t.integer "company_id"
+    t.string "name"
+    t.boolean "is_editable"
+    t.integer "node_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["company_id"], name: "index_nodes_on_company_id"
+    t.index ["node_id"], name: "index_nodes_on_node_id"
   end
 
 end

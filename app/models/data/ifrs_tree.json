@@ -1,0 +1,420 @@
+[
+  {
+    "name": "Assets",
+    "children": [
+      {
+        "name": "Non-current assets",
+        "children": [
+          {
+            "name": "Property, plant and equipment",
+            "children": [
+              {
+                "name": "Land and buildings",
+                "children": [
+                  {
+                    "name": "Land",
+                    "children": []
+                  },
+                  {
+                    "name": "Buildings",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Machinery",
+                "children": []
+              },
+              {
+                "name": "Vehicles",
+                "children": [
+                  {
+                    "name": "Ships",
+                    "children": []
+                  },
+                  {
+                    "name": "Aircraft",
+                    "children": []
+                  },
+                  {
+                    "name": "Motor vehicles",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Fixtures and fittings",
+                "children": []
+              },
+              {
+                "name": "Office equipment",
+                "children": []
+              },
+              {
+                "name": "Tangible exploration and evaluation assets",
+                "children": []
+              },
+              {
+                "name": "Construction in progress",
+                "children": []
+              },
+              {
+                "name": "Investment property whose fair value cannot be measured reliably without undue cost or effort on ongoing basis",
+                "children": []
+              },
+              {
+                "name": "Other property, plant and equipment",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Investment property",
+            "children": []
+          },
+          {
+            "name": "Goodwill",
+            "children": []
+          },
+          {
+            "name": "Intangible assets other than goodwill",
+            "children": [
+              {
+                "name": "Brand names",
+                "children": []
+              },
+              {
+                "name": "Intangible exploration and evaluation assets",
+                "children": []
+              },
+              {
+                "name": "Mastheads and publishing titles",
+                "children": []
+              },
+              {
+                "name": "Computer software",
+                "children": []
+              },
+              {
+                "name": "Licences and franchises",
+                "children": []
+              },
+              {
+                "name": "Copyrights, patents and other industrial property rights, service and operating rights",
+                "children": []
+              },
+              {
+                "name": "Recipes, formulae, models, designs and prototypes",
+                "children": []
+              },
+              {
+                "name": "Intangible assets under development",
+                "children": []
+              },
+              {
+                "name": "Service concession arrangements, classified as intangible assets",
+                "children": []
+              },
+              {
+                "name": "Other intangible assets",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Investments in associates",
+            "children": []
+          },
+          {
+            "name": "Investments in joint ventures",
+            "children": []
+          },
+          {
+            "name": "Non-current biological assets, at cost less accumulated depreciation and impairment",
+            "children": []
+          },
+          {
+            "name": "Non-current biological assets, at fair value",
+            "children": []
+          },
+          {
+            "name": "Trade and other non-current receivables",
+            "children": []
+          },
+          {
+            "name": "Non-current inventories",
+            "children": []
+          },
+          {
+            "name": "Deferred tax assets",
+            "children": []
+          },
+          {
+            "name": "Current tax assets, non-currentا",
+            "children": []
+          },
+          {
+            "name": "Other non-current financial assets",
+            "children": []
+          },
+          {
+            "name": "Other non-current non-financial assets",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Current assets",
+        "children": [
+          {
+            "name": "Current inventories",
+            "children": [
+              {
+                "name": "Undesignated purchases",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Trade and other current receivables",
+            "children": []
+          },
+          {
+            "name": "Current tax assets, current",
+            "children": []
+          },
+          {
+            "name": "Current biological assets, at cost less accumulated depreciation and impairment",
+            "children": []
+          },
+          {
+            "name": "Current biological assets, at fair value",
+            "children": []
+          },
+          {
+            "name": "Other current financial assets",
+            "children": []
+          },
+          {
+            "name": "Other current non-financial assets",
+            "children": []
+          },
+          {
+            "name": "Cash and cash equivalents",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Equity and liabilities",
+    "children": [
+      {
+        "name": "Equity",
+        "children": [
+          {
+            "name": "Issued capital",
+            "children": []
+          },
+          {
+            "name": "Retained earnings",
+            "children": []
+          },
+          {
+            "name": "Share premium",
+            "children": []
+          },
+          {
+            "name": "Treasury shares",
+            "children": []
+          },
+          {
+            "name": "Other equity interest",
+            "children": [
+              {
+                "name": "Revaluation Surplus",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Other reserves",
+            "children": []
+          },
+          {
+            "name": "Total equity attributable to owners of parent",
+            "children": []
+          },
+          {
+            "name": "Non-controlling interests",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Liabilities",
+        "children": [
+          {
+            "name": "Non-current liabilities",
+            "children": [
+              {
+                "name": "Non-current provisions",
+                "children": [
+                  {
+                    "name": "Non-current provisions for employee benefits",
+                    "children": []
+                  },
+                  {
+                    "name": "Other non-current provisions",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Trade and other non-current payables",
+                "children": []
+              },
+              {
+                "name": "Deferred tax liabilities",
+                "children": []
+              },
+              {
+                "name": "Current tax liabilities, non-current",
+                "children": []
+              },
+              {
+                "name": "Other non-current financial liabilitiesا",
+                "children": [
+                  {
+                    "name": "Non-current portion of non-current borrowings",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Other non-current non-financial liabilities",
+                "Index": 2020106,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Current liabilities",
+            "children": [
+              {
+                "name": "Current provisions",
+                "children": [
+                  {
+                    "name": "Current provisions for employee benefits",
+                    "Index": 202020101,
+                    "children": []
+                  },
+                  {
+                    "name": "Other current provisions",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Trade and other current payables",
+                "children": []
+              },
+              {
+                "name": "Current tax liabilities, current",
+                "children": []
+              },
+              {
+                "name": "Other current financial liabilities",
+                "children": [
+                  {
+                    "name": "Current borrowings",
+                    "children": []
+                  },
+                  {
+                    "name": "Current portion of non-current borrowings",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Other current non-financial liabilities",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Profit (loss)",
+    "children": [
+      {
+        "name": "Revenue",
+        "children": []
+      },
+      {
+        "name": "Cost of sales",
+        "children": []
+      },
+      {
+        "name": "Other income",
+        "children": []
+      },
+      {
+        "name": "Distribution costs",
+        "children": []
+      },
+      {
+        "name": "Administrative expenses",
+        "children": []
+      },
+      {
+        "name": "Other expense",
+        "children": []
+      },
+      {
+        "name": "Other gains (losses)",
+        "children": []
+      },
+      {
+        "name": "Finance income",
+        "children": []
+      },
+      {
+        "name": "Finance costs",
+        "children": []
+      },
+      {
+        "name": "Share of profit (loss) of associates and joint ventures accounted for using equity method",
+        "children": []
+      },
+      {
+        "name": "Tax income (expense)",
+        "children": []
+      },
+      {
+        "name": "Profit (loss) from continuing operations",
+        "children": []
+      },
+      {
+        "name": "Profit (loss) from discontinued operations",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "Profit (loss), attributable to",
+    "children": [
+      {
+        "name": "Profit (loss), attributable to owners of parent",
+        "children": []
+      },
+      {
+        "name": "Profit (loss), attributable to non-controlling interests",
+        "children": []
+      }
+    ]
+  }
+]
